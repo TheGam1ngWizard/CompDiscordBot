@@ -1,0 +1,515 @@
+
+(base) C:\Users\ariwi>cd documents
+
+(base) C:\Users\ariwi\Documents>mkdir compdiscordbot
+
+(base) C:\Users\ariwi\Documents>cd compdiscordbot
+
+(base) C:\Users\ariwi\Documents\compdiscordbot>npm init -y
+'npm' is not recognized as an internal or external command,
+operable program or batch file.
+
+(base) C:\Users\ariwi\Documents\compdiscordbot>conda activate comp
+Could not find conda environment: comp
+You can list all discoverable environments with `conda info --envs`.
+
+
+(base) C:\Users\ariwi\Documents\compdiscordbot>cond env create comp
+'cond' is not recognized as an internal or external command,
+operable program or batch file.
+
+(base) C:\Users\ariwi\Documents\compdiscordbot>conda env create comp
+
+SpecNotFound: Invalid name, try the format: user/package
+
+
+(base) C:\Users\ariwi\Documents\compdiscordbot>cond create comp
+'cond' is not recognized as an internal or external command,
+operable program or batch file.
+
+(base) C:\Users\ariwi\Documents\compdiscordbot>conda create comp
+
+CondaValueError: The target prefix is the base prefix. Aborting.
+
+
+(base) C:\Users\ariwi\Documents\compdiscordbot>conda info --envs
+# conda environments:
+#
+base                  *  C:\ProgramData\Anaconda3
+
+
+(base) C:\Users\ariwi\Documents\compdiscordbot>conda create comp1
+
+CondaValueError: The target prefix is the base prefix. Aborting.
+
+
+(base) C:\Users\ariwi\Documents\compdiscordbot>conda create -n comp
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.10.3
+  latest version: 4.12.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\ariwi\.conda\envs\comp
+
+
+
+Proceed ([y]/n)? y
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate comp
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+(base) C:\Users\ariwi\Documents\compdiscordbot>conda activate comp
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>conda install npm
+Collecting package metadata (current_repodata.json): done
+Solving environment: failed with initial frozen solve. Retrying with flexible solve.
+Collecting package metadata (repodata.json): done
+Solving environment: failed with initial frozen solve. Retrying with flexible solve.
+
+PackagesNotFoundError: The following packages are not available from current channels:
+
+  - npm
+
+Current channels:
+
+  - https://repo.anaconda.com/pkgs/main/win-64
+  - https://repo.anaconda.com/pkgs/main/noarch
+  - https://repo.anaconda.com/pkgs/r/win-64
+  - https://repo.anaconda.com/pkgs/r/noarch
+  - https://repo.anaconda.com/pkgs/msys2/win-64
+  - https://repo.anaconda.com/pkgs/msys2/noarch
+
+To search for alternate channels that may provide the conda package you're
+looking for, navigate to
+
+    https://anaconda.org
+
+and use the search bar at the top of the page.
+
+
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>npm install discord.js
+'npm' is not recognized as an internal or external command,
+operable program or batch file.
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>conda install nodejs
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.10.3
+  latest version: 4.12.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\ariwi\.conda\envs\comp
+
+  added / updated specs:
+    - nodejs
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    nodejs-16.13.1             |       haa95532_0        18.9 MB
+    ------------------------------------------------------------
+                                           Total:        18.9 MB
+
+The following NEW packages will be INSTALLED:
+
+  nodejs             pkgs/main/win-64::nodejs-16.13.1-haa95532_0
+  vs2015_runtime     pkgs/main/win-64::vs2015_runtime-14.27.29016-h5e58377_2
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+nodejs-16.13.1       | 18.9 MB   | ################################# | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>npm --version
+8.1.2
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>doskey /HISTORY > history.txt
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>doskey /BUFFER > history.txt
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>npm init -y
+Wrote to C:\Users\ariwi\Documents\compdiscordbot\package.json:
+
+{
+  "name": "compdiscordbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>npm install discord.js
+
+added 24 packages, and audited 25 packages in 7s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm notice
+npm notice New minor version of npm available! 8.1.2 -> 8.9.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v8.9.0
+npm notice Run npm install -g npm@8.9.0 to update!
+npm notice
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>npm install -g npm@8.9.0
+
+removed 190 packages, changed 20 packages, and audited 29 packages in 10s
+
+found 0 vulnerabilities
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>index.js
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>nodejs index.js
+'nodejs' is not recognized as an internal or external command,
+operable program or batch file.
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>index.js
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node index.js
+C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\client\Client.js:548
+      throw new TypeError('CLIENT_MISSING_INTENTS');
+      ^
+
+TypeError [CLIENT_MISSING_INTENTS]: Valid intents must be provided for the Client.
+    at Client._validateOptions (C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\client\Client.js:548:13)
+    at new Client (C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\client\Client.js:76:10)
+    at Object.<anonymous> (C:\Users\ariwi\Documents\compdiscordbot\index.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  [Symbol(code)]: 'CLIENT_MISSING_INTENTS'
+}
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node index.js
+C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\client\Client.js:548
+      throw new TypeError('CLIENT_MISSING_INTENTS');
+      ^
+
+TypeError [CLIENT_MISSING_INTENTS]: Valid intents must be provided for the Client.
+    at Client._validateOptions (C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\client\Client.js:548:13)
+    at new Client (C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\client\Client.js:76:10)
+    at Object.<anonymous> (C:\Users\ariwi\Documents\compdiscordbot\index.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  [Symbol(code)]: 'CLIENT_MISSING_INTENTS'
+}
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>npm list discord.js
+compdiscordbot@1.0.0 C:\Users\ariwi\Documents\compdiscordbot
+`-- discord.js@13.6.0
+
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node index.js
+Logged in as CompDevelopmentProject#8753!
+(node:11472) DeprecationWarning: The message event is deprecated. Use messageCreate instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+^C
+(comp) C:\Users\ariwi\Documents\compdiscordbot>
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node --trace-deprecation
+Welcome to Node.js v16.13.1.
+Type ".help" for more information.
+> index.js
+Uncaught ReferenceError: index is not defined
+>
+(To exit, press Ctrl+C again or Ctrl+D or type .exit)
+>
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node --trace-deprecation index.js
+Logged in as CompDevelopmentProject#8753!
+(node:10800) DeprecationWarning: The message event is deprecated. Use messageCreate instead
+    at MessageCreateAction.handle (C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\client\actions\MessageCreate.js:36:17)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:351:31)
+    at WebSocketShard.onPacket (C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+    at WebSocket.onMessage (C:\Users\ariwi\Documents\compdiscordbot\node_modules\ws\lib\event-target.js:199:18)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\Users\ariwi\Documents\compdiscordbot\node_modules\ws\lib\websocket.js:1160:20)
+    at Receiver.emit (node:events:390:28)
+    at Receiver.dataMessage (C:\Users\ariwi\Documents\compdiscordbot\node_modules\ws\lib\receiver.js:528:14)
+^C
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node --trace-deprecation index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\compdiscordbot>npm install -g nodemon
+
+added 116 packages, and audited 117 packages in 11s
+
+16 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\compdiscordbot>npm install d
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>npm install dotenv
+
+added 1 package, and audited 26 packages in 1s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node index.js
+C:\Users\ariwi\Documents\compdiscordbot\index.js:2
+require(‘dotenv’).config()
+
+
+SyntaxError: Invalid or unexpected token
+←[90m    at Object.compileFunction (node:vm:352:18)←[39m
+←[90m    at wrapSafe (node:internal/modules/cjs/loader:1031:15)←[39m
+←[90m    at Module._compile (node:internal/modules/cjs/loader:1065:27)←[39m
+←[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)←[39m
+←[90m    at Module.load (node:internal/modules/cjs/loader:981:32)←[39m
+←[90m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)←[39m
+←[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)←[39m
+←[90m    at node:internal/main/run_main_module:17:47←[39m
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node index.js
+C:\Users\ariwi\Documents\compdiscordbot\index.js:2
+require(‘dotenv’).config();
+
+
+SyntaxError: Invalid or unexpected token
+←[90m    at Object.compileFunction (node:vm:352:18)←[39m
+←[90m    at wrapSafe (node:internal/modules/cjs/loader:1031:15)←[39m
+←[90m    at Module._compile (node:internal/modules/cjs/loader:1065:27)←[39m
+←[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)←[39m
+←[90m    at Module.load (node:internal/modules/cjs/loader:981:32)←[39m
+←[90m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)←[39m
+←[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)←[39m
+←[90m    at node:internal/main/run_main_module:17:47←[39m
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\compdiscordbot>
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node --trace-deprecation index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node index copy.js
+Logged in as CompDevelopmentProject#8753!
+C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\util\Util.js:417
+    if (!allowEmpty && data.length === 0) throw new error(errorMessage);
+                                                ^
+
+RangeError [MESSAGE_CONTENT_TYPE]: Message content must be a non-empty string.
+    at Function.verifyString (C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\util\Util.js:417:49)
+    at MessagePayload.makeContent (C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\structures\MessagePayload.js:114:22)
+    at MessagePayload.resolveData (C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\structures\MessagePayload.js:129:26)
+    at DMChannel.send (C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\structures\interfaces\TextBasedChannel.js:171:61)
+    at GuildMember.send (C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\structures\interfaces\TextBasedChannel.js:163:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  [Symbol(code)]: 'MESSAGE_CONTENT_TYPE'
+}
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node index.js
+Logged in as CompDevelopmentProject#8753!
+C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\util\Util.js:417
+    if (!allowEmpty && data.length === 0) throw new error(errorMessage);
+                                                ^
+
+RangeError [MESSAGE_CONTENT_TYPE]: Message content must be a non-empty string.
+    at Function.verifyString (C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\util\Util.js:417:49)
+    at MessagePayload.makeContent (C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\structures\MessagePayload.js:114:22)
+    at MessagePayload.resolveData (C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\structures\MessagePayload.js:129:26)
+    at DMChannel.send (C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\structures\interfaces\TextBasedChannel.js:171:61)
+    at GuildMember.send (C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\structures\interfaces\TextBasedChannel.js:163:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  [Symbol(code)]: 'MESSAGE_CONTENT_TYPE'
+}
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node index.js
+Logged in as CompDevelopmentProject#8753!
+C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\util\Util.js:417
+    if (!allowEmpty && data.length === 0) throw new error(errorMessage);
+                                                ^
+
+RangeError [MESSAGE_CONTENT_TYPE]: Message content must be a non-empty string.
+    at Function.verifyString (C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\util\Util.js:417:49)
+    at MessagePayload.makeContent (C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\structures\MessagePayload.js:114:22)
+    at MessagePayload.resolveData (C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\structures\MessagePayload.js:129:26)
+    at DMChannel.send (C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\structures\interfaces\TextBasedChannel.js:171:61)
+    at GuildMember.send (C:\Users\ariwi\Documents\compdiscordbot\node_modules\discord.js\src\structures\interfaces\TextBasedChannel.js:163:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  [Symbol(code)]: 'MESSAGE_CONTENT_TYPE'
+}
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node index.js
+C:\Users\ariwi\Documents\compdiscordbot\index.js:181
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+←[90m    at Object.compileFunction (node:vm:352:18)←[39m
+←[90m    at wrapSafe (node:internal/modules/cjs/loader:1031:15)←[39m
+←[90m    at Module._compile (node:internal/modules/cjs/loader:1065:27)←[39m
+←[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)←[39m
+←[90m    at Module.load (node:internal/modules/cjs/loader:981:32)←[39m
+←[90m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)←[39m
+←[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)←[39m
+←[90m    at node:internal/main/run_main_module:17:47←[39m
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node index.js
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node --trace-deprecation index.js
+C:\Users\ariwi\Documents\compdiscordbot\index.js:183
+client.login(process.env.DISCORD_BOT_TOKEN);
+
+
+SyntaxError: Unexpected end of input
+←[90m    at Object.compileFunction (node:vm:352:18)←[39m
+←[90m    at wrapSafe (node:internal/modules/cjs/loader:1031:15)←[39m
+←[90m    at Module._compile (node:internal/modules/cjs/loader:1065:27)←[39m
+←[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)←[39m
+←[90m    at Module.load (node:internal/modules/cjs/loader:981:32)←[39m
+←[90m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)←[39m
+←[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)←[39m
+←[90m    at node:internal/main/run_main_module:17:47←[39m
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node --trace-deprecation index.js
+C:\Users\ariwi\Documents\compdiscordbot\index.js:181
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+←[90m    at Object.compileFunction (node:vm:352:18)←[39m
+←[90m    at wrapSafe (node:internal/modules/cjs/loader:1031:15)←[39m
+←[90m    at Module._compile (node:internal/modules/cjs/loader:1065:27)←[39m
+←[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)←[39m
+←[90m    at Module.load (node:internal/modules/cjs/loader:981:32)←[39m
+←[90m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)←[39m
+←[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)←[39m
+←[90m    at node:internal/main/run_main_module:17:47←[39m
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\compdiscordbot>
+(comp) C:\Users\ariwi\Documents\compdiscordbot>
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node index copy.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node deploy-commands.js
+C:\Users\ariwi\Documents\compdiscordbot\deploy-commands.js:13
+const rest = new REST({ version: '9' }).setToken(process.env.token));
+                                                                   ^
+
+SyntaxError: Unexpected token ')'
+←[90m    at Object.compileFunction (node:vm:352:18)←[39m
+←[90m    at wrapSafe (node:internal/modules/cjs/loader:1031:15)←[39m
+←[90m    at Module._compile (node:internal/modules/cjs/loader:1065:27)←[39m
+←[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)←[39m
+←[90m    at Module.load (node:internal/modules/cjs/loader:981:32)←[39m
+←[90m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)←[39m
+←[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)←[39m
+←[90m    at node:internal/main/run_main_module:17:47←[39m
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node deploy-commands.js
+DiscordAPIError[50001]: Missing Access
+    at SequentialHandler.runRequest (C:\Users\ariwi\Documents\compdiscordbot\node_modules\@discordjs\rest\dist\index.js:708:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async SequentialHandler.queueRequest (C:\Users\ariwi\Documents\compdiscordbot\node_modules\@discordjs\rest\dist\index.js:511:14) {
+  rawError: { message: 'Missing Access', code: 50001 },
+  code: 50001,
+  status: 403,
+  method: 'put',
+  url: 'https://discord.com/api/v9/applications/971825561880125501/guilds/431802699193778186/commands',
+  requestBody: { files: undefined, json: [ [Object], [Object], [Object] ] }
+}
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node deploy-commands.js
+DiscordAPIError[50001]: Missing Access
+    at SequentialHandler.runRequest (C:\Users\ariwi\Documents\compdiscordbot\node_modules\@discordjs\rest\dist\index.js:708:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async SequentialHandler.queueRequest (C:\Users\ariwi\Documents\compdiscordbot\node_modules\@discordjs\rest\dist\index.js:511:14) {
+  rawError: { message: 'Missing Access', code: 50001 },
+  code: 50001,
+  status: 403,
+  method: 'put',
+  url: 'https://discord.com/api/v9/applications/971825561880125501/guilds/431802699193778186/commands',
+  requestBody: { files: undefined, json: [ [Object], [Object], [Object] ] }
+}
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node deploy-commands.js
+Successfully registered application commands.
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node deploy-commands.js
+Successfully registered application commands.
+
+(comp) C:\Users\ariwi\Documents\compdiscordbot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\compdiscordbot>
