@@ -5,5 +5,6 @@ npm install discord.js
 npm install @discordjs/builders @discordjs/rest discord-api-types
 
 npm install -g nodemon
+npm install aws-sdk
 
 cd into home directory \compdiscordbot and run 'deploy-commands.js' to attach the commands to your server/bot, then run 'node index.js' to start the bot.
