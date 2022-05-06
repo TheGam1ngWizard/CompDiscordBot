@@ -1,6 +1,7 @@
 // Create envs file to store discord_bot_token/client.login credentials.
 require('dotenv').config();
 const fs = require('node:fs');
+require("./deploy-commands")
 
 
 // Import discord.js and create the client
