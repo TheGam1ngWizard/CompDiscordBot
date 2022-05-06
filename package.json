@@ -1,7 +1,7 @@
 {
   "name": "compdiscordbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "packages required: Nodejs (conda install nodejs), dotenv (npm install dotenv)",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
@@ -16,5 +16,13 @@
     "discord-api-types": "^0.32.1",
     "discord.js": "^13.6.0",
     "dotenv": "^16.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheGam1ngWizard/CompDiscordBot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheGam1ngWizard/CompDiscordBot/issues"
+  },
+  "homepage": "https://github.com/TheGam1ngWizard/CompDiscordBot#readme"
 }
