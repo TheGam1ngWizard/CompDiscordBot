@@ -1,0 +1,1040 @@
+
+(base) C:\Users\ariwi>conda activate comp
+
+(comp) C:\Users\ariwi>cd Documents
+
+(comp) C:\Users\ariwi\Documents>cd CompDiscordBot
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+Something went wrong TypeError: collected.values is not a function
+    at C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:32:33
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>cd CompDiscordBot
+The system cannot find the path specified.
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:105
+                                let [...collectedvalues = collected.values()]
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid destructuring assignment target
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\ariwi\Documents\CompDiscordBot\index.js:14:18)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+Something went wrong TypeError: collected.values is not a function
+    at C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:32:37
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+Something went wrong TypeError: collected.array is not a function
+    at C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:36:33
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+Something went wrong TypeError: collected.values is not a function
+    at C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:36:37
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+Something went wrong TypeError: collected.values is not a function
+    at C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:36:37
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+Something went wrong TypeError: collected.array is not a function
+    at C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:33:33
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\MessagePayload.js:137
+        throw new RangeError('MESSAGE_NONCE_TYPE');
+              ^
+
+RangeError [MESSAGE_NONCE_TYPE]: Message nonce must be an integer or a string.
+    at MessagePayload.resolveData (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\MessagePayload.js:137:15)
+    at InteractionWebhook.send (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\Webhook.js:191:61)
+    at CommandInteraction.followUp (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:166:25)
+    at C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:32:17
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  [Symbol(code)]: 'MESSAGE_NONCE_TYPE'
+}
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+Something went wrong TypeError: Cannot read properties of undefined (reading 'first')
+    at C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:30:53
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:37
+/*
+
+SyntaxError: Invalid or unexpected token
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\ariwi\Documents\CompDiscordBot\index.js:14:18)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>cd CompDiscordBot
+The system cannot find the path specified.
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+Collected Ooo?
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+Collected owo?
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:29
+                                        survey.push(`${m.first().content}`)
+                                                         ^
+
+TypeError: m.first is not a function
+    at MessageCollector.<anonymous> (C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:29:23)
+    at MessageCollector.emit (node:events:390:28)
+    at MessageCollector.handleCollect (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\Collector.js:109:12)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:29
+                                        survey.push(`${m.first().content}`)
+                                                         ^
+
+TypeError: m.first is not a function
+    at MessageCollector.<anonymous> (C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:29:23)
+    at MessageCollector.emit (node:events:390:28)
+    at MessageCollector.handleCollect (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\Collector.js:109:12)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:29
+                                        survey.push(`${m.content}`)
+                                               ^
+
+TypeError: survey.push is not a function
+    at MessageCollector.<anonymous> (C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:29:13)
+    at MessageCollector.emit (node:events:390:28)
+    at MessageCollector.handleCollect (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\Collector.js:109:12)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+Collected test
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+Collected How is everyone doing?
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[ name: 'Ari' ]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>cd CompDiscordBot
+The system cannot find the path specified.
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:27
+                                collector.on('collect', m => {
+                                          ^
+
+TypeError: collector.on is not a function
+    at C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:27:15
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:33
+                                        survey.answer = `${m.content}`
+                                                           ^
+
+ReferenceError: m is not defined
+    at C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:33:25
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+node:internal/process/promises:246
+          triggerUncaughtException(err, true /* fromPromise */);
+          ^
+
+[UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<r>".] {
+  code: 'ERR_UNHANDLED_REJECTION'
+}
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+node:internal/process/promises:246
+          triggerUncaughtException(err, true /* fromPromise */);
+          ^
+
+[UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<r>".] {
+  code: 'ERR_UNHANDLED_REJECTION'
+}
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>cd CompDiscordBot
+The system cannot find the path specified.
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:17
+                const filter = (m) => m.author.id === message.author.id;
+                                                      ^
+
+ReferenceError: message is not defined
+    at MessageCollector.filter (C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:17:41)
+    at MessageCollector.handleCollect (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\Collector.js:101:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+node:internal/process/promises:246
+          triggerUncaughtException(err, true /* fromPromise */);
+          ^
+
+[UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<r>".] {
+  code: 'ERR_UNHANDLED_REJECTION'
+}
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+node:internal/process/promises:246
+          triggerUncaughtException(err, true /* fromPromise */);
+          ^
+
+[UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<r>".] {
+  code: 'ERR_UNHANDLED_REJECTION'
+}
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+node:internal/process/promises:246
+          triggerUncaughtException(err, true /* fromPromise */);
+          ^
+
+[UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<r>".] {
+  code: 'ERR_UNHANDLED_REJECTION'
+}
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+node:internal/process/promises:246
+          triggerUncaughtException(err, true /* fromPromise */);
+          ^
+
+[UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<r>".] {
+  code: 'ERR_UNHANDLED_REJECTION'
+}
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:34
+                                                })
+                                                 ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\ariwi\Documents\CompDiscordBot\index.js:14:18)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:165
+    if (!this.deferred && !this.replied) return Promise.reject(new Error('INTERACTION_NOT_REPLIED'));
+                                                               ^
+
+Error [INTERACTION_NOT_REPLIED]: The reply to this interaction has not been sent or deferred.
+    at CommandInteraction.followUp (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:165:64)
+    at Object.execute (C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:20:15)
+    at Client.<anonymous> (C:\Users\ariwi\Documents\CompDiscordBot\index.js:33:17)
+    at Client.emit (node:events:390:28)
+    at InteractionCreateAction.handle (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\actions\InteractionCreate.js:74:12)
+    at Object.module.exports [as INTERACTION_CREATE] (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\handlers\INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:351:31)
+    at WebSocketShard.onPacket (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+    at WebSocket.onMessage (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\ws\lib\event-target.js:199:18) {
+  [Symbol(code)]: 'INTERACTION_NOT_REPLIED'    node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:165
+    if (!this.deferred && !this.replied) return Promise.reject(new Error('INTERACTION_NOT_REPLIED'));
+                                                               ^
+
+Error [INTERACTION_NOT_REPLIED]: The reply to this interaction has not been sent or deferred.
+    at CommandInteraction.followUp (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:165:64)
+    at Object.execute (C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:20:15)
+    at Client.<anonymous> (C:\Users\ariwi\Documents\CompDiscordBot\index.js:33:17)
+    at Client.emit (node:events:390:28)
+    at InteractionCreateAction.handle (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\actions\InteractionCreate.js:74:12)
+    at Object.module.exports [as INTERACTION_CREATE] (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\handlers\INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:351:31)
+    at WebSocketShard.onPacket (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+    at WebSocket.onMessage (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\ws\lib\event-target.js:199:18) {
+  [Symbol(code)]: 'INTERACTION_NOT_REPLIED'
+}
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:53
+} */
+
+
+SyntaxError: Unexpected end of input
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\ariwi\Documents\CompDiscordBot\index.js:14:18)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:53
+} */
+
+
+SyntaxError: Unexpected end of input
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\ariwi\Documents\CompDiscordBot\index.js:14:18)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:11
+                const filter = m => m.user.id === interaction.user.id;
+                                           ^
+
+TypeError: Cannot read properties of undefined (reading 'id')
+    at MessageCollector.filter (C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:11:30)
+    at MessageCollector.handleCollect (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\Collector.js:101:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>cd CompDiscordBot
+The system cannot find the path specified.
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>cd CompDiscordBot
+The system cannot find the path specified.
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>cd CompDiscordBot
+The system cannot find the path specified.
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:165
+    if (!this.deferred && !this.replied) return Promise.reject(new Error('INTERACTION_NOT_REPLIED'));
+                                                               ^
+
+Error [INTERACTION_NOT_REPLIED]: The reply to this interaction has not been sent or deferred.
+    at CommandInteraction.followUp (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:165:64)
+    at Object.execute (C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:22:15)
+    at Client.<anonymous> (C:\Users\ariwi\Documents\CompDiscordBot\index.js:33:17)
+    at Client.emit (node:events:390:28)
+    at InteractionCreateAction.handle (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\actions\InteractionCreate.js:74:12)
+    at Object.module.exports [as INTERACTION_CREATE] (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\handlers\INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:351:31)
+    at WebSocketShard.onPacket (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+    at WebSocket.onMessage (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\ws\lib\event-target.js:199:18) {
+  [Symbol(code)]: 'INTERACTION_NOT_REPLIED'
+}
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>cd CompDiscordBot
+The system cannot find the path specified.
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>cd CompDiscordBot
+The system cannot find the path specified.
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>cd CompDiscordBot
+The system cannot find the path specified.
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:165
+    if (!this.deferred && !this.replied) return Promise.reject(new Error('INTERACTION_NOT_REPLIED'));
+                                                               ^
+
+Error [INTERACTION_NOT_REPLIED]: The reply to this interaction has not been sent or deferred.
+    at CommandInteraction.followUp (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:165:64)
+    at Object.execute (C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:25:15)
+    at Client.<anonymous> (C:\Users\ariwi\Documents\CompDiscordBot\index.js:33:17)
+    at Client.emit (node:events:390:28)
+    at InteractionCreateAction.handle (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\actions\InteractionCreate.js:74:12)
+    at Object.module.exports [as INTERACTION_CREATE] (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\handlers\INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:351:31)
+    at WebSocketShard.onPacket (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+    at WebSocket.onMessage (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\ws\lib\event-target.js:199:18) {
+  [Symbol(code)]: 'INTERACTION_NOT_REPLIED'
+}
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:165
+    if (!this.deferred && !this.replied) return Promise.reject(new Error('INTERACTION_NOT_REPLIED'));
+                                                               ^
+
+Error [INTERACTION_NOT_REPLIED]: The reply to this interaction has not been sent or deferred.
+    at CommandInteraction.followUp (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:165:64)
+    at Object.execute (C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:24:15)
+    at Client.<anonymous> (C:\Users\ariwi\Documents\CompDiscordBot\index.js:33:17)
+    at Client.emit (node:events:390:28)
+    at InteractionCreateAction.handle (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\actions\InteractionCreate.js:74:12)
+    at Object.module.exports [as INTERACTION_CREATE] (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\handlers\INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:351:31)
+    at WebSocketShard.onPacket (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+    at WebSocket.onMessage (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\ws\lib\event-target.js:199:18) {
+  [Symbol(code)]: 'INTERACTION_NOT_REPLIED'
+}
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\rest\RequestHandler.js:350
+      throw new DiscordAPIError(data, res.status, request);
+            ^
+
+DiscordAPIError: Interaction has already been acknowledged.
+    at RequestHandler.execute (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\rest\RequestHandler.js:350:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async CommandInteraction.reply (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:99:5) {
+  method: 'post',
+  path: '/interactions/971979178968768532/aW50ZXJhY3Rpb246OTcxOTc5MTc4OTY4NzY4NTMyOnF2RU9YSjNiazd0eDBxTFhNVjRoQnlxNzcxbHBONFI4eWZHZ0V4Ym1aR3VIdUczbzY4VG9kZ0RsMTAyRmJpVTJrd3RtRU9pbGx2dlgxdHJ6cjVQZWducXNBY2t2ZUU1ejNCU3F0Z3ExS1Q5djN5aWx4RkZZZlFReHpYSW44YzdX/callback',
+  code: 40060,
+  httpStatus: 400,
+  requestData: {
+    json: {
+      type: 4,
+      data: {
+        content: 'What is your favorite candy?',
+        tts: false,
+        nonce: undefined,
+        embeds: undefined,
+        components: undefined,
+        username: undefined,
+        avatar_url: undefined,
+        allowed_mentions: undefined,
+        flags: undefined,
+        message_reference: undefined,
+        attachments: undefined,
+        sticker_ids: undefined
+      }
+    },
+    files: []
+  }
+}
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\rest\RequestHandler.js:350
+      throw new DiscordAPIError(data, res.status, request);
+            ^
+
+DiscordAPIError: Interaction has already been acknowledged.
+    at RequestHandler.execute (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\rest\RequestHandler.js:350:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async CommandInteraction.reply (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:99:5) {
+  method: 'post',
+  path: '/interactions/971979653650743306/aW50ZXJhY3Rpb246OTcxOTc5NjUzNjUwNzQzMzA2Okx4b0tPSkZadXJpUFlCR1FBSml4RGY0SGFaQXlDREpsNGVnT3Y3TDhQOTA0TVV1NEZPZ0kzUUZoWVlzNDlHZVkxS2JWUFJBdGV2ZVp4aWRMZm9BSE9ISkZxMk4zTlBWNEN6WWJ5V09NZkNDc1BLaDhLY051aFFvZFoxWXNqbFVa/callback',
+  code: 40060,
+  httpStatus: 400,
+  requestData: {
+    json: {
+      type: 4,
+      data: {
+        content: 'Welcome to the !survey command. First what is your name?',
+        tts: false,
+        nonce: undefined,
+        embeds: undefined,
+        components: undefined,
+        username: undefined,
+        avatar_url: undefined,
+        allowed_mentions: undefined,
+        flags: undefined,
+        message_reference: undefined,
+        attachments: undefined,
+        sticker_ids: undefined
+      }
+    },
+    files: []
+  }
+}
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:165
+    if (!this.deferred && !this.replied) return Promise.reject(new Error('INTERACTION_NOT_REPLIED'));
+                                                               ^
+
+Error [INTERACTION_NOT_REPLIED]: The reply to this interaction has not been sent or deferred.
+    at CommandInteraction.followUp (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:165:64)
+    at Object.execute (C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:25:15)
+    at Client.<anonymous> (C:\Users\ariwi\Documents\CompDiscordBot\index.js:33:17)
+    at Client.emit (node:events:390:28)
+    at InteractionCreateAction.handle (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\actions\InteractionCreate.js:74:12)
+    at Object.module.exports [as INTERACTION_CREATE] (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\handlers\INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:351:31)
+    at WebSocketShard.onPacket (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+    at WebSocket.onMessage (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\ws\lib\event-target.js:199:18) {
+  [Symbol(code)]: 'INTERACTION_NOT_REPLIED'
+}
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>cd CompDiscordBot
+The system cannot find the path specified.
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[ name: 'ari' ]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[ name: 'ari' ]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[ name: 'ari' ]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[ name: 'ari' ]
+[ name: 'ari' ]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:165
+    if (!this.deferred && !this.replied) return Promise.reject(new Error('INTERACTION_NOT_REPLIED'));
+                                                               ^
+
+Error [INTERACTION_NOT_REPLIED]: The reply to this interaction has not been sent or deferred.
+    at CommandInteraction.followUp (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:165:64)
+    at Object.execute (C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:25:15)
+    at Client.<anonymous> (C:\Users\ariwi\Documents\CompDiscordBot\index.js:33:17)
+    at Client.emit (node:events:390:28)
+    at InteractionCreateAction.handle (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\actions\InteractionCreate.js:74:12)
+    at Object.module.exports [as INTERACTION_CREATE] (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\handlers\INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:351:31)
+    at WebSocketShard.onPacket (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+    at WebSocket.onMessage (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\ws\lib\event-target.js:199:18) {
+  [Symbol(code)]: 'INTERACTION_NOT_REPLIED'
+}
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:165
+    if (!this.deferred && !this.replied) return Promise.reject(new Error('INTERACTION_NOT_REPLIED'));
+                                                               ^
+
+Error [INTERACTION_NOT_REPLIED]: The reply to this interaction has not been sent or deferred.
+    at CommandInteraction.followUp (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:165:64)
+    at Object.execute (C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:25:15)
+    at Client.<anonymous> (C:\Users\ariwi\Documents\CompDiscordBot\index.js:33:17)
+    at Client.emit (node:events:390:28)
+    at InteractionCreateAction.handle (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\actions\InteractionCreate.js:74:12)
+    at Object.module.exports [as INTERACTION_CREATE] (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\handlers\INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:351:31)
+    at WebSocketShard.onPacket (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+    at WebSocket.onMessage (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\ws\lib\event-target.js:199:18) {
+  [Symbol(code)]: 'INTERACTION_NOT_REPLIED'
+}
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[ name: 'ari' ]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[ name: 'ari' ]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[ name: 'bight' ]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[ name: 'Ari' ]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:165
+    if (!this.deferred && !this.replied) return Promise.reject(new Error('INTERACTION_NOT_REPLIED'));
+                                                               ^
+
+Error [INTERACTION_NOT_REPLIED]: The reply to this interaction has not been sent or deferred.
+    at CommandInteraction.followUp (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:165:64)
+    at Object.execute (C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:26:15)
+    at Client.<anonymous> (C:\Users\ariwi\Documents\CompDiscordBot\index.js:33:17)
+    at Client.emit (node:events:390:28)
+    at InteractionCreateAction.handle (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\actions\InteractionCreate.js:74:12)
+    at Object.module.exports [as INTERACTION_CREATE] (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\handlers\INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:351:31)
+    at WebSocketShard.onPacket (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+    at WebSocket.onMessage (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\ws\lib\event-target.js:199:18) {
+  [Symbol(code)]: 'INTERACTION_NOT_REPLIED'
+}
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:165
+    if (!this.deferred && !this.replied) return Promise.reject(new Error('INTERACTION_NOT_REPLIED'));
+                                                               ^
+
+Error [INTERACTION_NOT_REPLIED]: The reply to this interaction has not been sent or deferred.
+    at CommandInteraction.followUp (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:165:64)
+    at Object.execute (C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:26:15)
+    at Client.<anonymous> (C:\Users\ariwi\Documents\CompDiscordBot\index.js:33:17)
+    at Client.emit (node:events:390:28)
+    at InteractionCreateAction.handle (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\actions\InteractionCreate.js:74:12)
+    at Object.module.exports [as INTERACTION_CREATE] (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\handlers\INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:351:31)
+    at WebSocketShard.onPacket (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+    at WebSocket.onMessage (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\ws\lib\event-target.js:199:18) {
+  [Symbol(code)]: 'INTERACTION_NOT_REPLIED'
+}
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:24
+                                        .sweep();
+                                         ^
+
+TypeError: interaction.channel.awaitMessages(...).then(...).catch(...).sweep is not a function
+    at C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:24:7
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:24
+                                        .sweep();
+                                         ^
+
+TypeError: interaction.channel.awaitMessages(...).then(...).catch(...).sweep is not a function
+    at C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:24:7
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[ name: 'ari' ]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:165
+    if (!this.deferred && !this.replied) return Promise.reject(new Error('INTERACTION_NOT_REPLIED'));
+                                                               ^
+
+Error [INTERACTION_NOT_REPLIED]: The reply to this interaction has not been sent or deferred.
+    at CommandInteraction.followUp (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:165:64)
+    at Object.execute (C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:26:15)
+    at Client.<anonymous> (C:\Users\ariwi\Documents\CompDiscordBot\index.js:33:17)
+    at Client.emit (node:events:390:28)
+    at InteractionCreateAction.handle (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\actions\InteractionCreate.js:74:12)
+    at Object.module.exports [as INTERACTION_CREATE] (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\handlers\INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:351:31)
+    at WebSocketShard.onPacket (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+    at WebSocket.onMessage (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\ws\lib\event-target.js:199:18) {
+  [Symbol(code)]: 'INTERACTION_NOT_REPLIED'
+}
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:18
+                                return interaction.channel.awaitMessages(filter, options)
+                                                   ^
+
+TypeError: Cannot read properties of undefined (reading 'channel')
+    at C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:18:24
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:21
+                                survey.name = collected.first().content;
+                                                        ^
+
+TypeError: Cannot read properties of undefined (reading 'first')
+    at C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:21:29
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>cd CompDiscordBot
+The system cannot find the path specified.
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>cd CompDiscordBot
+The system cannot find the path specified.
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:19
+                                return interaction.channel.awaitMessages(filter, options)
+                                                   ^
+
+TypeError: Cannot read properties of undefined (reading 'channel')
+    at C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:19:24
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:19
+                                return m.channel.awaitMessages(filter, options)
+                                         ^
+
+TypeError: Cannot read properties of undefined (reading 'channel')
+    at C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:19:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[]
+C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:19
+                                return Channel.fetch.awaitMessages(filter, options)
+                                                     ^
+
+TypeError: Cannot read properties of undefined (reading 'awaitMessages')
+    at C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:19:26
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>cd CompDiscordBot
+The system cannot find the path specified.
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>cd CompDiscordBot
+The system cannot find the path specified.
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[ name: 'ari' ]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[ name: 'ari' ]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[ name: 'ari' ]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[ name: 'ari' ]
+[ name: 'ari', candy: 'ari' ]
+[ name: 'ari', candy: 'ari', reason: 'ari' ]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[ name: 'ari' ]
+[ name: 'ari', candy: 'Butterscotch' ]
+[ name: 'ari', candy: 'Butterscotch', reason: 'Slimy' ]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:18
+                info: application
+                      ^
+
+ReferenceError: application is not defined
+    at Object.<anonymous> (C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:18:9)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\ariwi\Documents\CompDiscordBot\index.js:14:18)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[ name: 'Ari' ]
+[ name: 'Ari', candy: 'Candy Flavored Candy!' ]
+[
+  name: 'Ari',
+  candy: 'Candy Flavored Candy!',
+  reason: 'Its candy flavored.'
+]
+C:\Users\ariwi\Documents\CompDiscordBot\node_modules\aws-sdk\lib\request.js:31
+            throw err;
+            ^
+
+Error [ReferenceError]: msg is not defined
+    at Response.<anonymous> (C:\Users\ariwi\Documents\CompDiscordBot\commands\survey.js:55:17)
+    at Request.<anonymous> (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\aws-sdk\lib\request.js:367:18)
+    at Request.callListeners (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\aws-sdk\lib\request.js:686:14)
+    at Request.transition (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\ariwi\Documents\CompDiscordBot\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\ariwi\Documents\CompDiscordBot\node_modules\aws-sdk\lib\request.js:688:12) {
+  code: 'ReferenceError',
+  time: 2022-05-06T05:14:54.934Z
+}
+
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[ name: 'Ari' ]
+[ name: 'Ari', candy: 'Silver' ]
+[ name: 'Ari', candy: 'Silver', reason: 'Metalic' ]
+^C
+(comp) C:\Users\ariwi\Documents\CompDiscordBot>node index.js
+Logged in as CompDevelopmentProject#8753!
+[ name: 'Bacon' ]
+[ name: 'Bacon', candy: 'Kinetic Spear' ]
